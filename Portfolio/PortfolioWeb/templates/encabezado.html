@@ -1,0 +1,26 @@
+{%load static%}
+<link href="./static/css/bootstrap.min.css" rel="stylesheet">
+<!DOCTYPE html>
+<header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="py-1" href="/">
+      <svg width="40" height="40" fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" class="d-block mx-auto" role="img" viewBox="0 0 24 24"><title>Ir a inicio</title><circle cx="12" cy="12" r="10"></circle><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"></path></svg>
+    </a>
+    <div class="position-absolute top-1 start-50 translate-middle-x" class="btn-center">
+      <button type="button" onclick="location.href='sobreMi'"class="btn btn-outline-light">Sobre mí</button>
+      <button type="button" onclick="location.href='proyectos'"class="btn btn-outline-light">Proyectos</button>
+
+    </div>
+    
+  </nav>
+
+{%block contenidoPortada%}
+{%endblock%}
+{%block contenidosobreMi%}
+{%endblock%} 
+{%block contenidoproyecto%}
+{%endblock%}
+{%block contenidocontacto%}
+{%endblock%}
+
+

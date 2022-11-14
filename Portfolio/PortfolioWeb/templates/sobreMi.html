@@ -1,0 +1,35 @@
+{%extends "encabezado.html"%}
+{%load static%}
+
+{%block contenidosobreMi%}
+
+<style>
+    body{
+        font-family: 'Lucida Sans Unicode';
+        background-image: url('static/fondo7.jpg');
+        
+    }
+    </style>
+<body>
+    <div class="position-relative p-md-5 ">
+        <div class="bg-dark col-md-7 border border-secondary border border-5 rounded-4 p-lg-5 mx-auto text-light">
+            <h3 class="fw-small"><font style="vertical-align: inherit; color: white">Un poco sobre mí.</h3><br>
+            <p class="text-white ">
+                Tengo 20 años.<br>
+            Vivo con mis padres y mi hermana. <br><br>
+            Me apasiona la tecnología, desde los 6 años tengo computadora.  <br>
+            Terminé mis estudios secundarios en 2019 y en 2020 empecé a estudiar Ingeniería en sistemas, fue entonces cuando me di cuenta que quería dedicarme a la programacion. <br><br>
+            Soy una persona organizada, responsable y con muchas ganas de aprender.<br><br>
+            
+            Actualmente soy programador en Python y estoy estudiando Desarrollo Web.
+            </p>
+            <div class="position-relative overflow-hidden p-md-5 text-center">
+                <button type="button" onclick="location.href='/contacto'"class="btn btn-light">Contacto</button>
+            </div>
+        </div>
+    
+    </div>
+    
+</body>
+</html>
+{%endblock%}
